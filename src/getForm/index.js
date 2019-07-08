@@ -12,7 +12,6 @@ const formHTML = `<!DOCTYPE html>
         </label>
         <input type="submit" value="Submit">
     </form>
-
   </body>
 </html>`;
 exports.handler = async message => {
