@@ -5,7 +5,7 @@ const formHTML = `<!DOCTYPE html>
     <title>Newsletter Sign Up</title>
   </head>
   <body>
-    <h1>Melde dich für unseren Newsletter an</h1>
+    <h1>Melde dich für unseren Newsletter an!</h1>
     <form action="submit" method="post">
         <label>Email
             <input name="email" type="text">
