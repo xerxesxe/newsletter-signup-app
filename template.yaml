@@ -123,8 +123,6 @@ Resources:
     Properties:
       ServiceToken: !GetAtt deployFrontend.Arn
       DeploymentTimestamp: !Ref DeploymentTimestamp
-  UserPoolClient:
-    Type: AWS::Cognito::UserPoolClient
 Parameters:
   StackTagName:
     Type: String
